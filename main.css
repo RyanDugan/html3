@@ -10,8 +10,13 @@
 	background: url("images/twok.banner.png") no-repeat;
 }
 
+.left {
+	float: left;
+}
+
 body {
 	background-color: #CDEDE8;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 
 header {
@@ -29,7 +34,8 @@ header h1 {
 
 footer {
 	text-align: center;
-	clear: both
+	clear: both;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 
 nav {
@@ -46,3 +52,21 @@ nav li {
 	display:inline;
 }
 
+nav  a:link {
+	font-family:bc-rebecca-grim, sans-serif;
+	color:#C97034;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav a:visited {
+	
+}
+
+nav a:hover {
+	
+}
+
+nav a:active {
+	
+}
