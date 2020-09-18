@@ -11,7 +11,7 @@
 }
 
 .back {
-	background: url("images/twok.banner.png") no-repeat;
+	opacity: 0.5;
 }
 
 .left {
@@ -19,6 +19,7 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 400px;
+	box-shadow: 5px 5px 3px gray;
 }
 .right {
 	width: 555px;
@@ -29,7 +30,10 @@
 }
 body {
 	background-color: #CDEDE8;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-image: url("images/twok.banner.png"), url("images/twok.szeth.png");
+	background-position: left top, right top;
+	background-repeat: no-repeat, no-repeat; 
 }
 
 header {
@@ -68,7 +72,7 @@ nav li {
 }
 
 nav  a:link {
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color:#C97034;
 	text-decoration: none;
 	margin-right: 20px;
