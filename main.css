@@ -49,6 +49,12 @@ header h1 {
 	color: rgba(70,70,104,.8)
 }
 
+header h2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: normal;
+	text-align: left;
+}
+
 footer {
 	text-align: center;
 	clear: both;
@@ -88,4 +94,10 @@ nav a:hover {
 
 nav a:active {
 	color:#F5A44B
+}
+
+section {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
