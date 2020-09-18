@@ -6,6 +6,10 @@
 	margin: 0 auto;
 }
 
+.active {
+	color: #CF4B32;
+}
+
 .back {
 	background: url("images/twok.banner.png") no-repeat;
 }
@@ -59,10 +63,12 @@ nav ul {
 
 nav li {
 	display:inline;
+	font-weight: 700;
+	font-size: 20px;
 }
 
 nav  a:link {
-	font-family:bc-rebecca-grim, sans-serif;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 	color:#C97034;
 	text-decoration: none;
 	margin-right: 20px;
@@ -73,9 +79,9 @@ nav a:visited {
 }
 
 nav a:hover {
-	
+	color:#F5A44B;
 }
 
 nav a:active {
-	
+	color:#F5A44B
 }
