@@ -18,8 +18,9 @@
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 400px;
-	box-shadow: 5px 5px 3px gray;
+	width: 395px;
+	height: 600px;
+	box-shadow: 10px 5px 3px gray;
 }
 .right {
 	width: 555px;
